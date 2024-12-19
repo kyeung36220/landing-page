@@ -1,0 +1,132 @@
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+}
+
+.header .logo {
+    font-weight: 900;
+}
+
+.header .links {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero .main-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .main-text button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-weight: 900;
+}
+
+.hero .image {
+    width:200px;
+    height:100px;
+    background:grey;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info .title {
+    font-weight: 900;
+}
+
+.info .subtext {
+    display: flex;
+}
+
+.info .subtext .item {
+    display:flex;
+    flex-direction: column;
+}
+
+.info .subtext .item .image {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.quote-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-block .quote {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-block .signature {
+    font-weight: 900;
+}
+
+.cta {
+    display: flex;
+}
+
+.cta .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta .text .title {
+    font-weight: 900;
+}
+
+.cta .text .description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.cta button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 2px solid #E5E7EB;
+    color: white;
+    font-weight: 900;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+}
